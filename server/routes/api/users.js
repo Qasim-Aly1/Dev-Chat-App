@@ -17,7 +17,7 @@ const User = require('../../models/User');
 router.use(passport.initialize());
 
 // passport config
-require('../../config/passport')(passport);
+// require('../../config/passport')(passport);
 
 // @route GET api/users/register
 // @desc Register user
